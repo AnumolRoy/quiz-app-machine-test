@@ -276,7 +276,7 @@ data.length=numOfQuestions
               <>
               <h1 className="endText">Your Score is: {earned}</h1>
               <h1 className="endText">Percentage :{Math.floor(earned / numOfQuestions * 100)}</h1>
-              <button onClick={()=>window.location.reload()}  style={{ width: "300px", height: "50px",marginLeft:"610px",marginBottom:"200px"}} >Take once more</button>
+              <button onClick={()=>window.location.reload()}  style={{ width: "300px", height: "50px",marginLeft:"611px",marginBottom:"200px"}} >Take once more</button>
               </>
             ) : (
               <>
