@@ -1,7 +1,6 @@
 import "./app.css";
 import { useEffect, useMemo, useState } from "react";
 import Start from "./components/Start";
-import Timer from "./components/Timer";
 import Trivia from "./components/Trivia";
 import QuestioSelector from "./components/QuestioSelector/QuestioSelector";
 
@@ -259,8 +258,6 @@ function App() {
 data.length=numOfQuestions
 
   useEffect(() => {
-    // questionNumber > 1 &&
-    // setEarned(moneyPyramid.find((m) => m.id === questionNumber ).amount);
     setEarned(questionNumber);
   }, [questionNumber, moneyPyramid]);
 
@@ -279,7 +276,7 @@ data.length=numOfQuestions
               <>
               <h1 className="endText">Your Score is: {earned}</h1>
               <h1 className="endText">Percentage :{Math.floor(earned / numOfQuestions * 100)}</h1>
-              <button onClick={()=>window.location.reload()}  style={{ width: "100px", height: "50px",marginLeft:"600px",marginTop:"100px"}} >Take once more</button>
+              <button onClick={()=>window.location.reload()}  style={{ width: "300px", height: "50px",marginLeft:"610px",marginBottom:"200px"}} >Take once more</button>
               </>
             ) : (
               <>
