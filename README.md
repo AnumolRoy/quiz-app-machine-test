@@ -1,10 +1,16 @@
 
 
-                       REACT QUIZ APP
+  REACT QUIZ APP
 
 
 
-Simple quiz game made using REACT that showing random questions at a time. Also you can select how many questions that you want to attempt. Questions are of MCQ type.  Select your answers and it will show your answers correct or wrong there itself by indicating green and red outlines respectively  and it will display your accuracy in attempt once you finishes the quiz. And you can reconduct exam, but this time there will be new set of questions.
+ 
+  Simple quiz game made using REACT that showing random questions at a time. Also you can select how many questions that you want to attempt. Questions are   of MCQ type.  Select your answers and it will show your answers correct or wrong there itself by indicating green and red outlines respectively  and it     will display your accuracy in attempt once you finishes the quiz. And you can reconduct exam, but this time there will be new set of questions.
+  
+  
+  To run the code:
+  
+  npm start
 
 
 
